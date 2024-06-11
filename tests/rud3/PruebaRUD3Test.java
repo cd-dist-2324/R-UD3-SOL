@@ -23,7 +23,7 @@ public class PruebaRUD3Test {
 
     @Test
     void testCamino1() {
-        int resultado = app.prueba(-1, 0);
+        int resultado = app.prueba(0, 0);
         assertEquals(0, resultado);
     }
 
